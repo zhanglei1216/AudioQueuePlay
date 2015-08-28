@@ -14,6 +14,18 @@
 		8BAA44811B8EBAE600E7F960 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA44801B8EBAE600E7F960 /* Images.xcassets */; };
 		8BAA44841B8EBAE600E7F960 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA44821B8EBAE600E7F960 /* LaunchScreen.xib */; };
 		8BAA44901B8EBAE600E7F960 /* AudioQueuePlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA448F1B8EBAE600E7F960 /* AudioQueuePlayTests.m */; };
+		8BAA449A1B8EBAFE00E7F960 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44991B8EBAFE00E7F960 /* AVFoundation.framework */; };
+		8BAA449D1B8EBB2300E7F960 /* AudioPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA449C1B8EBB2300E7F960 /* AudioPlay.m */; };
+		8BAA44A41B8EC9F500E7F960 /* libagora_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44A11B8EC9F500E7F960 /* libagora_fat.a */; };
+		8BAA44A51B8EC9F500E7F960 /* libagoradep_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44A21B8EC9F500E7F960 /* libagoradep_fat.a */; };
+		8BAA44A61B8EC9F500E7F960 /* libagoramedia_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44A31B8EC9F500E7F960 /* libagoramedia_fat.a */; };
+		8BAA44A81B8F056C00E7F960 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44A71B8F056C00E7F960 /* SystemConfiguration.framework */; };
+		8BAA44AA1B8F057B00E7F960 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44A91B8F057B00E7F960 /* libc++.dylib */; };
+		8BAA44AC1B8F058400E7F960 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44AB1B8F058400E7F960 /* AudioToolbox.framework */; };
+		8BAA44AE1B8F058D00E7F960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44AD1B8F058D00E7F960 /* CoreGraphics.framework */; };
+		8BAA44B01B8F059700E7F960 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44AF1B8F059700E7F960 /* CoreMedia.framework */; };
+		8BAA44B21B8F059E00E7F960 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44B11B8F059E00E7F960 /* CoreMotion.framework */; };
+		8BAA44B41B8F05A700E7F960 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA44B31B8F05A700E7F960 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,21 @@
 		8BAA44891B8EBAE600E7F960 /* AudioQueuePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioQueuePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BAA448E1B8EBAE600E7F960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BAA448F1B8EBAE600E7F960 /* AudioQueuePlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioQueuePlayTests.m; sourceTree = "<group>"; };
+		8BAA44991B8EBAFE00E7F960 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8BAA449B1B8EBB2300E7F960 /* AudioPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlay.h; sourceTree = "<group>"; };
+		8BAA449C1B8EBB2300E7F960 /* AudioPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlay.m; sourceTree = "<group>"; };
+		8BAA449F1B8EC9F500E7F960 /* AgoraAudioKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraAudioKit.h; sourceTree = "<group>"; };
+		8BAA44A01B8EC9F500E7F960 /* agorasdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agorasdk.h; sourceTree = "<group>"; };
+		8BAA44A11B8EC9F500E7F960 /* libagora_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libagora_fat.a; sourceTree = "<group>"; };
+		8BAA44A21B8EC9F500E7F960 /* libagoradep_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libagoradep_fat.a; sourceTree = "<group>"; };
+		8BAA44A31B8EC9F500E7F960 /* libagoramedia_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libagoramedia_fat.a; sourceTree = "<group>"; };
+		8BAA44A71B8F056C00E7F960 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8BAA44A91B8F057B00E7F960 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8BAA44AB1B8F058400E7F960 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8BAA44AD1B8F058D00E7F960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BAA44AF1B8F059700E7F960 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8BAA44B11B8F059E00E7F960 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8BAA44B31B8F05A700E7F960 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BAA44B41B8F05A700E7F960 /* CoreTelephony.framework in Frameworks */,
+				8BAA44B21B8F059E00E7F960 /* CoreMotion.framework in Frameworks */,
+				8BAA44B01B8F059700E7F960 /* CoreMedia.framework in Frameworks */,
+				8BAA44AE1B8F058D00E7F960 /* CoreGraphics.framework in Frameworks */,
+				8BAA44AC1B8F058400E7F960 /* AudioToolbox.framework in Frameworks */,
+				8BAA44AA1B8F057B00E7F960 /* libc++.dylib in Frameworks */,
+				8BAA44A81B8F056C00E7F960 /* SystemConfiguration.framework in Frameworks */,
+				8BAA44A51B8EC9F500E7F960 /* libagoradep_fat.a in Frameworks */,
+				8BAA44A61B8EC9F500E7F960 /* libagoramedia_fat.a in Frameworks */,
+				8BAA44A41B8EC9F500E7F960 /* libagora_fat.a in Frameworks */,
+				8BAA449A1B8EBAFE00E7F960 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,15 @@
 		8BAA44671B8EBAE600E7F960 = {
 			isa = PBXGroup;
 			children = (
+				8BAA44B31B8F05A700E7F960 /* CoreTelephony.framework */,
+				8BAA44B11B8F059E00E7F960 /* CoreMotion.framework */,
+				8BAA44AF1B8F059700E7F960 /* CoreMedia.framework */,
+				8BAA44AD1B8F058D00E7F960 /* CoreGraphics.framework */,
+				8BAA44AB1B8F058400E7F960 /* AudioToolbox.framework */,
+				8BAA44A91B8F057B00E7F960 /* libc++.dylib */,
+				8BAA44A71B8F056C00E7F960 /* SystemConfiguration.framework */,
+				8BAA44991B8EBAFE00E7F960 /* AVFoundation.framework */,
+				8BAA449E1B8EC9F500E7F960 /* libs */,
 				8BAA44721B8EBAE600E7F960 /* AudioQueuePlay */,
 				8BAA448C1B8EBAE600E7F960 /* AudioQueuePlayTests */,
 				8BAA44711B8EBAE600E7F960 /* Products */,
@@ -89,6 +136,8 @@
 				8BAA44801B8EBAE600E7F960 /* Images.xcassets */,
 				8BAA44821B8EBAE600E7F960 /* LaunchScreen.xib */,
 				8BAA44731B8EBAE600E7F960 /* Supporting Files */,
+				8BAA449B1B8EBB2300E7F960 /* AudioPlay.h */,
+				8BAA449C1B8EBB2300E7F960 /* AudioPlay.m */,
 			);
 			path = AudioQueuePlay;
 			sourceTree = "<group>";
@@ -117,6 +166,18 @@
 				8BAA448E1B8EBAE600E7F960 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAA449E1B8EC9F500E7F960 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8BAA449F1B8EC9F500E7F960 /* AgoraAudioKit.h */,
+				8BAA44A01B8EC9F500E7F960 /* agorasdk.h */,
+				8BAA44A11B8EC9F500E7F960 /* libagora_fat.a */,
+				8BAA44A21B8EC9F500E7F960 /* libagoradep_fat.a */,
+				8BAA44A31B8EC9F500E7F960 /* libagoramedia_fat.a */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +282,7 @@
 			files = (
 				8BAA447C1B8EBAE600E7F960 /* ViewController.m in Sources */,
 				8BAA44791B8EBAE600E7F960 /* AppDelegate.m in Sources */,
+				8BAA449D1B8EBB2300E7F960 /* AudioPlay.m in Sources */,
 				8BAA44761B8EBAE600E7F960 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +409,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xiao Li (3AF67X72GA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiao Li (3AF67X72GA)";
 				INFOPLIST_FILE = AudioQueuePlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29b0f58a-66b8-428a-8d17-750b83abb229";
 			};
 			name = Debug;
 		};
@@ -357,9 +426,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xiao Li (3AF67X72GA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiao Li (3AF67X72GA)";
 				INFOPLIST_FILE = AudioQueuePlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29b0f58a-66b8-428a-8d17-750b83abb229";
 			};
 			name = Release;
 		};
@@ -416,6 +492,7 @@
 				8BAA44951B8EBAE600E7F960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BAA44961B8EBAE600E7F960 /* Build configuration list for PBXNativeTarget "AudioQueuePlayTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +501,7 @@
 				8BAA44981B8EBAE600E7F960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
